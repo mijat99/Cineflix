@@ -1,0 +1,28 @@
+html{
+    min-height: 100vh;
+    height:100%;
+}
+.sredina{
+    margin:50px;
+}
+.sredina>h2{
+    font-size: 2em;
+}
+.omotac{
+    margin:100px;
+}
+.omotac>form>input[type="text"],.omotac>form>input[type="password"],.omotac>form>input[type="submit"],.omotac>form>select,.omotac>form>#bioskopi>select,.omotac>form>input[type="date"],.omotac>form>input[type="time"],.omotac>form>input[type="number"],.omotac>form>input[type="file"]{
+    width:300px;
+    margin:10px -5px;
+}
+.omotac>form>input[type="date"],.omotac>form>input[type="time"],.omotac>form>input[type="number"],.omotac>form>input[type="file"]{
+    display:block;
+    border:solid 1px #ddd;
+    border-radius: 0.4em;
+    padding:4px 12px;
+}
+.omotac>form>input[type="submit"]{
+    margin:20px -5px;
+}
+
+

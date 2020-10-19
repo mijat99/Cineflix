@@ -1,0 +1,68 @@
+.container{
+    display:flex;
+    height: 100%;
+    padding-bottom:50px
+}
+.levi,.desni{
+  display: inline-block;   
+  height:100%;
+}
+.levi{
+    width: 70%;
+    border-right:5px solid rgb(54, 64, 80);
+    padding-right:30px;
+}
+.customh1{
+    font-size:2.5em;
+    font-weight:bold;
+    margin:40px 20px 60px 20px;
+    display:block;
+}
+.desni{
+    width: 30%;
+    padding:0 30px;
+}
+.desni>h1{
+    font-size:2em;
+    font-weight:bold;
+    margin:20px 20px;
+}
+.desni>h2{
+}
+.desni>img{
+    width:90%;
+    margin:10px 0;
+}
+.projekcije{
+    list-style-type: none;
+    padding:0;
+}
+.projekcije>li:first-child{
+    border-top: 2px solid rgb(54, 64, 80);
+}
+.projekcije>li{
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(54, 64, 80);
+}
+.dugmici{
+    margin:10px 10px;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center!important;
+}
+.form{
+    display:inline-block;
+}
+.datum{
+    vertical-align: middle;
+}
+.datumHeader{
+    margin:10px;
+    display:inline-block;
+}
+.form>form>button{
+    display:inline-block;
+    margin:10px 10px;
+}
+

@@ -1,0 +1,94 @@
+.container{
+    display:flex;
+    height: 100%;
+    padding-bottom:50px
+}
+.levi,.desni{
+  display: inline-block;   
+  height:100%;
+}
+.levi{
+    width: 70%;
+    border-right:5px solid rgb(54, 64, 80);
+    padding-right:30px;
+    text-align: center;
+}
+.customh1{
+    font-size:2.5em;
+    font-weight:bold;
+    margin:40px 20px 60px 20px;
+    display:block;
+}
+.desni{
+    width: 30%;
+    padding:0 30px;
+}
+.desni>h1{
+    font-size:2em;
+    font-weight:bold;
+    margin:20px 20px;
+}
+.desni>h2{
+}
+.desni>img{
+    width:90%;
+    margin:10px 0;
+}
+.sedista{
+    display:inline-block;
+    width:auto;
+}
+table{
+    width:auto;
+    margin:auto;
+}
+tr{
+    background-color: inherit;
+}
+table tbody tr:nth-child(2n+2){
+    background-color:inherit;
+}
+table tbody tr td label :hover{
+    cursor:pointer;
+}
+.checkbox-toggle {
+    display: none;
+}
+.checkbox-toggle + img {
+    display: inline-block;
+}
+.checkbox-toggle + img + img {
+    display: none;
+}
+.checkbox-toggle:checked + img {
+    display: none;
+}
+.checkbox-toggle:checked + img + img {
+    display: inline-block;
+    cursor:default;
+}
+form input[type="submit"]{
+    display:block;
+    margin:auto;
+    width:300px;
+}
+.ikonice>tbody>tr>td{
+    vertical-align: middle;
+}
+.border{
+    border:2px solid rgb(54, 64, 80);
+    border-radius: 5px;
+    background-color: #d9ffdb;
+}
+.border:hover{
+    cursor:pointer !important;
+}
+label+ #ukCena{
+    margin:10px;
+}
+#ukCena{
+    width:100px;
+    display:inline-block;
+}
+
+

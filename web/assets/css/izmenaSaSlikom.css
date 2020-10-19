@@ -1,0 +1,37 @@
+.omotac{
+    display:flex;
+    flex-direction: row;
+}
+.levi,.desni{
+    display:inline-block;
+}
+.levi{
+    width: 70%;
+}
+.desni{
+    width:30%;
+}
+.omotac>.levi>form>input[type="text"],
+.omotac>.levi>form>input[type="password"],
+.omotac>.levi>form>input[type="submit"],
+.omotac>.levi>form>select,
+.omotac>.levi>form>#bioskopi>select,
+.omotac>.levi>form>input[type="date"],
+.omotac>.levi>form>input[type="time"],.omotac>.levi>form>input[type="number"],
+.omotac>.levi>form>input[type="file"]{
+    width:300px;
+    margin:10px -5px;
+}
+.omotac>.levi>form>input[type="date"],
+.omotac>.levi>form>input[type="time"],
+.omotac>.levi>form>input[type="number"],
+.omotac>.levi>form>input[type="file"]{
+    display:block;
+    border:solid 1px #ddd;
+    border-radius: 0.4em;
+    padding:4px 12px;
+    background-color: white;
+}
+.omotac>.levi>form>input[type="submit"]{
+    margin:20px -5px;
+}

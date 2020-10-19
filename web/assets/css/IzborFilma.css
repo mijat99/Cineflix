@@ -1,0 +1,70 @@
+.container{
+    display:flex;
+    height: 100%;
+    padding-bottom:50px
+}
+.levi,.desni{
+  display: inline-block;   
+  height:100%;
+}
+.levi{
+    width: 70%;
+    border-right:5px solid rgb(54, 64, 80);
+    padding-right:30px;
+}
+.customh1{
+    font-size:2.5em;
+    font-weight:bold;
+    margin:40px 20px 60px 20px;
+    display:block;
+}
+.desni{
+    width: 30%;
+    padding:0 30px;
+}
+.desni>h1{
+    font-size:2em;
+    font-weight:bold;
+    margin:20px 20px;
+}
+.desni>h2{
+}
+.desni>img{
+    width:90%;
+    margin:10px 0;
+}
+.filmovi{
+    list-style-type: none;
+    padding:0;
+}
+.filmovi>li:first-child{
+    border-top: 2px solid rgb(54, 64, 80);
+}
+.film{
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(54, 64, 80);
+}
+.filmoviSlika{
+    display:inline-block;
+    height: 150px
+}
+.filmoviText{
+    display:inline-block;
+    max-width: 60%;
+    vertical-align: top;
+    padding: 10px 20px;
+}
+.filmoviText>h2{
+    margin:10px 20px 20px 10px;
+}
+.filmoviDugme{
+    text-align: center !important;
+    vertical-align: top;
+    display:inline-block;
+    max-width: 20%;
+    float:right;
+    padding: 70px 0;
+}
+.filmoviDugme>form{
+    display:inline-block;
+}
